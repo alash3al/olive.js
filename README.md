@@ -1,6 +1,8 @@
 # olive.js
 a lightweight micro javascript web application framework .
 
+# Author
+[Mohammed Al Ashaal](http://www.alash3al.xyz)
 
 # Usage
 ```html
