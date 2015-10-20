@@ -93,7 +93,7 @@ a lightweight micro javascript web application framework .
         // want the query ?
         this.query
   
-        // now go aheadn and try it your self :)
+        // now go ahead and try it your self :)
       })
     </script>
   </body>
