@@ -41,6 +41,11 @@ a lightweight micro javascript web application framework .
         // ---> default "index.html"
         this.filename = "index.html"
 
+        // 4)- handle the 404 not found
+        this.e404 = function(){
+          alert("not found")
+        }
+
         // lets handle "/" page ?
         this.on("/", function(){
           alert("Welcome to index")
