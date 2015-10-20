@@ -75,7 +75,7 @@ a lightweight micro javascript web application framework .
         var simpleDiv = this.select("#simpleDiv").innerHTML
 
         // but here will tell the o.live.select() to return array of matched elements
-        var simpleClasses = this.select(".simpleClasses")[0].innerHTML
+        var simpleClasses = this.select(".simpleClasses", true)[0].innerHTML
 
         // redirect to an internal path ?
         // it will automatically normalize it based on 'hash' or 'pushState'
