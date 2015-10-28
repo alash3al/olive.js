@@ -26,23 +26,23 @@ a lightweight micro javascript web application framework .
 
         // 1)- whether you want to use "hash" or "pushState" ?
         // ----> default is "auto", it will automatically detect the right setting
-        this.config = "hash"
+        this.config.use = "hash"
 
         // 2)- set the base of the application
         // ----> lets say that your app is at '/htdocs/myapp/'
         // ----> so when you access it 'http://mysite.com/myapp/'
         // ----> so the base will be "myapp"
         // ----> default is "/"
-        this.base = "/"
+        this.config.base = "/"
 
         // 3)- set the current filename
         // ---> lets say that your app's filename is 'index.html'
         // ---> so this value will be 'index.html'
         // ---> default "index.html"
-        this.filename = "index.html"
+        this.config.filename = "index.html"
 
         // 4)- handle the 404 not found
-        this.e404 = function(){
+        this.config.e404 = function(){
           alert("not found")
         }
 
