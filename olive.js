@@ -106,7 +106,7 @@ function Olive(cb) {
 		if ( this.config.use == "hash" ) {
 			path = ("!/" + path).replace(/\/+/g, "/")
 			window.location.hash = path
-			window.document.title = title
+			window.document.title = title || window.document.title
 		}
 		else {
 			window.history.pushState({}, title, path)
